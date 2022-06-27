@@ -5,9 +5,10 @@ import android.content.Context
 import android.util.Log
 import com.example.daggerhilt.R
 import com.example.daggerhilt.model.UserEntity
+import javax.inject.Inject
 
 
-class TestRepositoryImp(appContext : Context) : TestRepository {
+class TestRepositoryImp (appContext : Context) : TestRepository {
 
     init {
         val name = appContext.getString(R.string.app_name)

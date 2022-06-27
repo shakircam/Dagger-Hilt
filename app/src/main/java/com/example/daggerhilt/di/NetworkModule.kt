@@ -52,11 +52,20 @@ object NetworkModule {
     }
 
 
-    @Provides
+    /*
+      // First way ..
+      This is one type of dependency implementation for repository.
+      And also if we use abstraction then we should use bind annotation.
+      I'm implementing another abstract class Repository Module & showing how to bind repository in another way
+     */
+
+
+
+  /*  @Provides
     @Singleton
     fun provideUserRepositoryImp(fakeApi: FakeApi,app:Application): UserRepository {
         return UserRepositoryImp(fakeApi,app)
-    }
+    }*/
 
 
 
