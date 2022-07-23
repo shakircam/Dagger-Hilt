@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         /*
           normal view model
-          Here we need to initialise view model.
+          Here we need to initialize view model.
           This view model depended to repository.
           And repository depended to view model factory
          */
