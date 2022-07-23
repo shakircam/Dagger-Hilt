@@ -7,6 +7,9 @@ import com.example.daggerhilt.R
 import com.example.daggerhilt.model.UserEntity
 import javax.inject.Inject
 
+/*
+Without setup dagger hilt
+*/
 
 class TestRepositoryImp (appContext : Context) : TestRepository {
 
