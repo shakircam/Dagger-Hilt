@@ -11,7 +11,7 @@ import javax.inject.Inject
   If we use provideUserRepositoryImp from network module we don't need to use this  @Inject constructor annotation.
 
   This is the two way for providing dependency for abstraction.
-  The Second way is better because dagger hilt implement less code.
+  @binds is better because dagger hilt implement less code.
  */
 
 class UserRepositoryImp @Inject constructor(
